@@ -1,0 +1,101 @@
+.good-bad-container {
+  padding: 24px;
+  margin-left: 250px;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Chart styles */
+.good-bad-chart .chart-container {
+  padding: 24px;
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-title {
+  margin-bottom: 24px !important;
+}
+
+.good-bad-chart .chart-area {
+  height: 300px !important;
+  width: 100%;
+}
+
+/* Table section styles */
+.table-section {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Table styles */
+.good-bad-table .MuiTableContainer-root {
+  box-shadow: none !important;
+  margin: 0 !important;
+}
+.good-bad-table .MuiTableCell-root {
+  font-size: 12px !important;
+  padding: 10px !important;
+}
+.MuiTableHead-root {
+  background-color: #f5f5f5;
+}
+
+.MuiTableCell-head {
+  font-weight: 600 !important;
+  color: #333 !important;
+}
+
+.play-video {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #1976d2;
+  cursor: pointer;
+}
+
+/* Status badge styles */
+.status-badge {
+  display: inline-flex;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-badge.good {
+  background-color: rgba(76, 175, 80, 0.1);
+  color: #4caf50;
+}
+
+.status-badge.bad {
+  background-color: rgba(244, 67, 54, 0.1);
+  color: #f44336;
+}
+
+/* Make table rows hoverable */
+.MuiTableRow-root:hover {
+  background-color: #f5f5f5;
+}
+
+/* Style the more options button */
+.MuiIconButton-root {
+  color: #666;
+} 

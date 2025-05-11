@@ -1,0 +1,38 @@
+.video-modal {
+  max-width: 90vw !important;
+  max-height: 90vh !important;
+}
+
+.video-modal-content {
+  padding: 0 !important;
+  position: relative;
+}
+
+.close-button.cancel-button-modal{
+  position: absolute;
+  top: 8px;
+  right: 13px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  float: left;
+}
+
+.close-button.cancel-button-modal:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.video-player-modal {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  float: left;
+}
+
+.video-player-modal video {
+  width: 100%;
+  height: 100%;
+  max-height: 80vh;
+  display: block;
+  pointer-events: none;
+} 

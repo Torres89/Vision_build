@@ -1,0 +1,141 @@
+.schedule-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left: 270px;
+}
+
+.schedule-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.schedule-header h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-profile span {
+  color: #666;
+}
+
+.section-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.section-title {
+  color: #333;
+  margin-bottom: 24px !important;
+  font-weight: 500 !important;
+}
+
+.create-modify-shift {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.breaks-title {
+  margin: 24px 0 16px !important;
+}
+
+.break-row {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.button-row {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+  justify-content: flex-start;
+}
+
+.weekly-schedule {
+  margin-top: 24px;
+}
+
+.MuiTableContainer-root {
+  margin: 24px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.MuiTableHead-root {
+  background-color: #f8f9fa;
+}
+
+.MuiTableCell-head {
+  font-weight: 600 !important;
+  color: #333 !important;
+}
+
+.MuiTableRow-root:hover {
+  background-color: #f8f9fa;
+}
+
+.apply-schedule-button {
+  margin-top: 24px !important;
+}
+
+/* Override Material-UI styles */
+.MuiButton-contained {
+  background-color: #28282B !important;
+  color: white !important;
+}
+
+.MuiButton-contained:hover {
+  background-color: #1a1a1c !important;
+}
+
+.MuiButton-outlined {
+  color: #28282B !important;
+  border-color: #28282B !important;
+}
+
+.MuiButton-outlined:hover {
+  background-color: rgba(40, 40, 43, 0.04) !important;
+}
+
+.MuiSelect-select {
+  padding: 12px !important;
+}
+
+.MuiTextField-root {
+  background-color: white;
+}
+
+/* Time picker styles */
+.MuiTimePicker-root .MuiTextField-root {
+  width: 100%;
+} 

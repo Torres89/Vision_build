@@ -1,0 +1,65 @@
+.sidebar {
+  width: 250px;
+  background-color: #1e1e1e;
+  color: white;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+.sidebar-item {
+  padding: 12px 24px !important;
+  color: rgba(255, 255, 255, 0.7);
+  transition: background-color 0.2s ease;
+  cursor: pointer !important;
+}
+
+.sidebar-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-item.active {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  color: white;
+}
+
+.sidebar-item.active .sidebar-icon {
+  color: white !important;
+}
+
+.sidebar-item.indented {
+  padding-left: 48px !important;
+}
+
+.sidebar-item.primary {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.sidebar-icon {
+  color: inherit !important;
+  min-width: 25px !important;
+}
+.task-list {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.config-list {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.sidebar-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+} 
+.task-title, .config-title {
+  margin-top: 30px !important;
+  margin-bottom: 0 !important;
+  margin-left: 20px !important;
+  font-size: 16px !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  text-align: left !important;
+}

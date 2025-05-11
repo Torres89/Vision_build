@@ -1,0 +1,75 @@
+.task-count-container {
+  padding: 24px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  margin-left: 250px;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Chart styles */
+.chart-container-count {
+  background-color: white;
+  padding: 24px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-area-count {
+  height: 300px;
+  width: 100%;
+}
+
+/* Table section styles */
+.table-section {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Table styles */
+.MuiTableContainer-root.table-count  {
+  box-shadow: none !important;
+  margin: 0 !important;
+}
+
+.MuiTableHead-root {
+  background-color: #f5f5f5;
+}
+
+.MuiTableCell-head {
+  font-weight: 600 !important;
+  color: #333 !important;
+}
+
+.play-video {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #1976d2;
+  cursor: pointer;
+}
+
+/* Make table rows hoverable */
+.MuiTableRow-root:hover {
+  background-color: #f5f5f5;
+}
+
+/* Style the more options button */
+.MuiIconButton-root {
+  color: #666;
+} 
