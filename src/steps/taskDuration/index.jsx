@@ -17,7 +17,7 @@ import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 import HighchartsMore from 'highcharts/highcharts-more';
 import AssignReason from '../../components/assignReason';
-import ModalVideo from '../../components/ModalVideo';
+import ModalVideo from '../../components/modalVideo';
 import './styles.css';
 
 if (typeof HighchartsMore === 'function') {
