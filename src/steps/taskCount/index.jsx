@@ -15,7 +15,7 @@ import {
 import { PlayArrow as PlayArrowIcon, MoreHoriz as MoreHorizIcon } from '@mui/icons-material';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
-import ModalVideo from '../../components/ModalVideo';
+import ModalVideo from '../../components/modalVideo';
 import AssignUnclassified from '../../components/assignUnclassified';
 import './styles.css';
 
